@@ -3,4 +3,4 @@ altura = float(input('Digite a sua altura[m]: '))
 
 IMC = peso / (altura**2)
 
-print('O seu teste de Indice de Massa Corporal é {} quilos por metro quadrado'.format(IMC))
+print('Sendo a suua altura {} e seu peso {}. O seu teste de Indice de Massa Corporal é {} quilos por metro quadrado'.format(altura, peso, IMC))
