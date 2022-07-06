@@ -1,0 +1,9 @@
+print('OI '*8)
+
+print('8'+'='*8+'D')
+
+nome = input('Digite o seu nome: ')
+print('Seu nome é: {:18}'.format(nome))
+print('Seu nome à esquerda: {:>18}'.format(nome))
+print('Seu nome centralizado {:^18}'.format(nome))
+print('Seu nome com efeitinho {:=^18}'.format(nome))
