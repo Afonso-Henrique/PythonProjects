@@ -1,0 +1,5 @@
+nome = input('Digite o seu nome: ')
+cpf = input('Digite o seu CPF: ')
+print('Bom dia', nome + ', seja bem vindo!')
+print('{} é o seu CPF?'.format(cpf))
+
