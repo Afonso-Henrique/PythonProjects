@@ -8,7 +8,7 @@ divisão = n1/n2
 subtração = n1 - n2
 potência = n1**n2
 
-print('A divisão dles é: {:.5f}'.format(divisão))
+print('A divisão dles é: {:.5f}'.format(divisão), end=' ')
 print('A subtração deles é de: {}'.format(subtração))
 print('A potência de n1 sobre n2 é de: {}'.format(potência))
 
