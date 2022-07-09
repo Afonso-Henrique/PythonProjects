@@ -8,14 +8,14 @@ divisão = n1/n2
 subtração = n1 - n2
 potência = n1**n2
 
-print('A divisão dles é: {}'.format(divisão))
+print('A divisão dles é: {:.5f}'.format(divisão))
 print('A subtração deles é de: {}'.format(subtração))
 print('A potência de n1 sobre n2 é de: {}'.format(potência))
 
 raiz_quintaN1 = n1**(1/5)
 pot_seteN2 = pow(n1, 7)
 
-print('A raiz quinta de n1 é: {}'.format(raiz_quintaN1))
+print('A raiz quinta de n1 é: {:.2f}'.format(raiz_quintaN1))
 print('A potencia de n2 elevado a 7 é de: {}'.format(pot_seteN2))
 
 resto = n1 % n2
