@@ -1,0 +1,10 @@
+print('Digite um número, e mostre seu dobro, triplo e raiz')
+
+numero = int(input('digite um número: '))
+
+dobro = numero * 2
+quadrado = pow(numero, 2)
+raiz = numero**(1/2)
+
+print('Seu numero é: {}; \nSeu dobro é: {};\nSeu quadrado é: '
+      '{};\nSua raiz é: {:.2f}.'.format(numero, dobro, quadrado, raiz))
