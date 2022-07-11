@@ -1,0 +1,7 @@
+print('Digite um número inteiro e mostre seu sucessor e antecessor')
+numero = int(input('Digite um número: '))
+
+suc = numero + 1
+ant = numero - 1
+
+print("Seu número é: {}; \nSeu sucessor é: {}; \nSeu antecessor é {}.".format(numero, suc, ant))
