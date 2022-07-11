@@ -1,0 +1,9 @@
+print('Calculadora de km/h para m/s, m/h e km/s')
+
+kmh = float(input('Digite uma velocidade em quilometros por hora: '))
+
+ms = kmh/3.6
+mh = kmh*1000
+kms = kmh/60**2
+
+print('A sua velocidade é de:\n{:.2f} km/h\n{:.2f} m/s\n{:.2f} m/h\n{:.2f} km/s'.format(kmh, ms, mh, kms))
