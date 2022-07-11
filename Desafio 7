@@ -1,0 +1,11 @@
+print('Fazer uma média das quatro provas e um aluno')
+
+n1 = float(input('Nota da primeira prova: '))
+n2 = float(input('Nota da segunda prova: '))
+n3 = float(input('Nota da terceira prova: '))
+n4 = float(input('Nota da quarta prova: '))
+
+media = (n1*0.2+n2*0.25+n3*0.25+n4*0.3)
+exame = (50 - media*6)/4
+
+print('A média do aluno foi: {}\nVocê precisa tirar {:.2f} no exame.'.format(media, exame))
