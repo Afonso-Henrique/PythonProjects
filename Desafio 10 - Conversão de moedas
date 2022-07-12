@@ -1,0 +1,9 @@
+print('Conversão de dinheiro')
+
+real = float(input('Quantos reais você tem: '))
+
+dolar = real / 5.38
+euro = real / 5.40
+iene = real / 0.039
+
+print('Você pode comprar {:.2f} Dólares, {:.2f} Euros ou {:.2f} Ienes.'.format(dolar, euro,iene))
