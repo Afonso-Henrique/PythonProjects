@@ -1,0 +1,27 @@
+print('Tabuada')
+
+tabN = int(input('Qual tabuada você deseja: '))
+
+tab1 = tabN*1
+tab2 = tabN*2
+tab3 = tabN*3
+tab4 = tabN*4
+tab5 = tabN*5
+tab6 = tabN*6
+tab7 = tabN*7
+tab8 = tabN*8
+tab9 = tabN*9
+tab10 = tabN*10
+
+print('Tabuada do {}'.format(tabN))
+print('1 x {} = {}'.format(tabN, tab1))
+print('2 x {} = {}'.format(tabN, tab2))
+print('3 x {} = {}'.format(tabN, tab3))
+print('4 x {} = {}'.format(tabN, tab4))
+print('5 x {} = {}'.format(tabN, tab5))
+print('6 x {} = {}'.format(tabN, tab6))
+print('7 x {} = {}'.format(tabN, tab7))
+print('8 x {} = {}'.format(tabN, tab8))
+print('9 x {} = {}'.format(tabN, tab9))
+print('10 x {} = {}'.format(tabN, tab10))
+
