@@ -1,0 +1,12 @@
+print('Quantos litros de tinta, tijoslos, azulejos e telhas para fazer uma casa')
+
+x = float(input('Medida da frente da casa: '))
+y = float(input('Medida do lado da casa: '))
+z = float(input('Altura da casa: '))
+
+#Casa litro 25m^2
+tinta = (x*z*2+y*z*2)/25
+#tijolo 24x11,5x14 desconsidera o 11,5
+tijolo = (2*x*z+2*y*z)/(0.24*0.14)
+
+print('A pintura da casa gastará {} latas de tinta;\nUtilizará {:.2f} tijolos;'.format(tinta,tijolo))
